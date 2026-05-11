@@ -6,7 +6,7 @@ pipeline {
 
   stage('Clone Repository') {
    steps {
-    git 'https://github.com/your-username/web-devops-pipeline.git'
+    git 'https://github.com/Ash-the-k/ci-cd-web-app.git'
    }
   }
 
