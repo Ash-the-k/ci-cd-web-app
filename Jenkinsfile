@@ -6,7 +6,8 @@ pipeline {
 
   stage('Clone Repository') {
    steps {
-    git 'https://github.com/Ash-the-k/ci-cd-web-app.git'
+    git branch : 'main',
+        url: 'https://github.com/Ash-the-k/ci-cd-web-app.git'
    }
   }
 
